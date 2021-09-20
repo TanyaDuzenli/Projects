@@ -1,0 +1,52 @@
+.tours_about {
+    padding: 20px;
+}
+.tours_about h1{
+    color: #4a7d9a;
+    font-size: 25px;
+}
+.tours_about table {
+    margin: 20px 0;
+    width: 80%;
+    border: 1px solid #dcdcdc;
+    border-collapse: collapse;/*что бы сомкнулись границы таблицы и ячеек*/
+}
+.tours_about table th,
+.tours_about table td {
+    border: 1px solid #dcdcdc;
+    padding: 10px;
+}
+.tours_about p{
+    font-size: 14px;
+    margin: 15px 0;
+    text-indent: 20px; /*тег что бы сделать абзац*/
+}
+.tours_about h2{
+    color: #4a7d9a;
+    font-size: 20px;
+    margin: 20px 0;
+}
+.tours_about form {
+    display: flex;
+    flex-direction:column;/*Что бы строчные теги формы стали в колонку*/
+    width: 60%;
+}
+.tours_about form input,
+.tours_about form textarea {
+    padding: 10px;
+    border-radius:5px;
+    border: 1px solid #dcdcdc;
+    margin: 5px 0;
+    outline: none;
+}
+.tours_about form textarea {
+    height: 100px;
+    resize:none;/*Что бы отменить растягивание формы*/
+}
+.tours_about form button {
+    border: none;
+    background: #F8CE25;
+    padding: 10px 5px;
+    border-radius: 5px;
+    
+}

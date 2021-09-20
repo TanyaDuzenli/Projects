@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Мой первый сайт</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="html, css, html-документ, web-страница"/>
+    <meta name="description" content="Урок по созданию web-страницы"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/mobile.css"/>
+    
+ </head>
+ 
+ <body>
+ <div class="container"> <!--это общее полотно сайта--> 
+ <header> <!--это шапка сайта-->
+ 
+ <div class="phone">
+ <span>8 800 333 33 33</span>
+ </div>
+ 
+ 
+ <input type="checkbox" id="top_toggle"/>
+ <label for="top_toggle">&#9776;</label>
+ <nav> <!-- тег навигации, создаем горизотальное меню-->
+ <ul> <!--это обычный маркированный список--> 
+          <li><a href="#">Горящие туры</a></li> <!--пишем отдельный элемент списка, тег а предназначен для создания ссылок-->
+          <li><a href="#">Агенствам</a></li>
+          <li><a href="#">Документы</a></li>
+          <li><a href="#">Контакты</a></li>
+ </ul> 
+ </nav>
+ 
+ <div class="banner">
+ <div class="text">
+ В нашем турагенстве Вы найдете много интересных туров. Мы предлагаем туры в разные страны. Подберем самый подходящий по цене и расскажем особенности отдыха.
+ </div>
+</div>
+<div class="search">
+<div class="icons">
+         <a href="#" class="icon_1"></a>
+         <a href="#" class="icon_2"></a>
+         <a href="#" class="icon_3"></a>
+         <a href="#" class="icon_4"></a>
+</div>
+<form>
+         <input type="text" placeholder="поиск по сайту"/> <!--placeholder отвечает за подсказку-->
+         <button type="submit">поиск</button> <!--submit означает что мы отправляем форму и что форма работает-->
+         
+</form>
+</div>
+
+ </header>
+ 
+
+
+ <div class="content"> <!--это второй блок с меню и контентом-->
+ 
+ <div class="left">
+ <div class="blok_title bg_1 center">Навигация</div>
+ 
+ <input type="checkbox" id="left_toggle"/>
+ <label for="left_toggle">&#9776;</label>
+ 
+  <nav>
+      <ul class="left_menu">
+          <li><a href="#">Авиатуры</a></li>
+          <li><a href="#">Автобусные туры</a></li>
+          <li><a href="#">Морские круизы</a></li>
+          <li><a href="#">Обучение за рубежом</a></li>
+          <li><a href="#">Детский отдых</a></li>
+          <li><a href="#">Горячие туры</a></li>
+          <li><a href="#">Заказать визу</a></li>
+          <li><a href="#">О компании</a></li>
+          <li><a href="#">Наш форум</a></li>
+      </ul>
+  
+  </nav>
+  
+  <div class="blok_title bg_3 center">Курорты</div>
+  <ul class="resorts">
+      <li><a href="#" class="item1">США</a></li>
+      <li><a href="#" class="item2">Испания</a></li>
+      <li><a href="#" class="item3">Германия</a></li>
+      <li><a href="#" class="item4">Канада</a></li>
+      <li><a href="#" class="item5">Швейцария</a></li>
+      <li><a href="#" class="item6">Греция</a></li>
+      <li><a href="#" class="item7">Бразилия</a></li>
+      <li><a href="#" class="item8">Ирландия</a></li>
+  </ul>
+  
+  <div class="resort_img"></div>  
+  
+   <div class="blok_title bg_4 center">Акционные туры</div>
+       <ul class="promo">
+           <li><a href="#">Круиз по Черному морю</a></li>
+           <li><a href="#">Экскурсия по Санкт-Петербургу</a></li>
+           <li><a href="#">Яркие ночи в Чехии</a></li>
+           <li><a href="#">Тунис:вылет 21 января</a></li>
+           <li><a href="#">Авиатур в Коста Рику</a></li>
+           <li><a href="#">Морской круиз:Москва-Хорватия-Москва</a></li>
+           <li><a href="#">Лето в Испании: 12 ночей</a></li>
+           <li><a href="#">Материковая Греция. Авиаперелет</a></li>
+    </ul>
+  </div>
+  
+ <div class="right">
+     <div class="blok_title bg_2">Популярные автобусные туры</div>
+          <div class="tours_block">
+              
+              <a href="#" class="tours_block--itemwrap">
+                 <div class="img item1">
+                   <div class="price">от 500 usd</div>
+                 </div>
+                      <p>Пражские улицы</p>
+              </a>
+              
+              <a href="#" class="tours_block--itemwrap">
+                 <div class="img item2">
+                   <div class="price">от 400 usd</div>
+                 </div>
+                      <p>Неделя во Франции</p>
+              </a>
+              
+              <a href="#" class="tours_block--itemwrap">
+                 <div class="img item3">
+                   <div class="price">от 450 usd</div>
+                 </div>
+                      <p>Греция</p>
+              </a>
+              
+              <a href="#" class="tours_block--itemwrap">
+                 <div class="img item4">
+                   <div class="price">от 510 usd</div>
+                 </div>
+                      <p>Красоты Италии</p>
+              </a>
+              
+              <a href="#" class="tours_block--itemwrap">
+                 <div class="img item5">
+                   <div class="price">от 420 usd</div>
+                 </div>
+                      <p>Виды древнего Рима</p>
+              </a>
+              
+              <a href="#" class="tours_block--itemwrap">
+                 <div class="img item6">
+                   <div class="price">от 470 usd</div>
+                 </div>
+                      <p>Горячая Испания</p>
+              </a>
+          </div>
+          
+           <div class="blok_title bg_2">Популярные авиа туры</div>
+           <div class="tours_block">
+              
+              <a href="#" class="tours_block--itemwrap">
+                 <div class="img item7">
+                   <div class="price">от 499 usd</div>
+                 </div>
+                      <p>Остров Бали</p>
+              </a>
+              
+              <a href="#" class="tours_block--itemwrap">
+                 <div class="img item8">
+                   <div class="price">от 400 usd</div>
+                 </div>
+                      <p>Незабываемая Болгария</p>
+              </a>
+              
+              <a href="#" class="tours_block--itemwrap">
+                 <div class="img item9">
+                   <div class="price">от 610 usd</div>
+                 </div>
+                      <p>Северная Англия</p>
+              </a>
+              
+              <a href="#" class="tours_block--itemwrap">
+                 <div class="img item10">
+                   <div class="price">от 540 usd</div>
+                 </div>
+                      <p>Остров Таити</p>
+              </a>
+              
+              <a href="#" class="tours_block--itemwrap">
+                 <div class="img item11">
+                   <div class="price">от 800 usd</div>
+                 </div>
+                      <p>Тур на Гаити</p>
+              </a>
+              
+              <a href="#" class="tours_block--itemwrap">
+                 <div class="img item12">
+                   <div class="price">от 410 usd</div>
+                 </div>
+                      <p>Родная Турция</p>
+              </a>
+          </div>
+        <div class="blok_title bg_2">Полезные статьи</div>  
+        <div class="tours_block">
+        
+        <a href="#" class="tours_block--itemwrap">
+        <div class="img item13"></div>
+        <p>Как сэкономить на перелете</p>
+        <span>Самолет - это быстро и удобно. Но авиаперелет сьедает львиную долю бюджета путешественника.</span>
+        </a>
+        
+        <a href="#" class="tours_block--itemwrap">
+        <div class="img item14"></div>
+        <p>В Финляндию автостопом</p>
+        <span>Если Вам очень хочется отправится в путешествие автостопом, но вы не знаете как, есть отличный способ.</span>
+        </a>
+        
+        <a href="#" class="tours_block--itemwrap">
+        <div class="img item15"></div>
+        <p>Чем славится Греция</p>
+        <span>Греция славится своими сохранившимися до наших дней историческими памятниками.</span>
+        </a>
+        
+        </div>
+         
+         
+   </div>
+ </div>
+ 
+ <footer> <!--это подвал нижний блок сайта-->
+ <p>&copy;Copyright, 2019. Сайт турагенства. Тел 8 800 333 33 33(бесплатно)</p>
+ </footer>
+ </div>
+
+
+
+
+
+</body>
+</html>
